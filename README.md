@@ -17,6 +17,7 @@
 ## Content Table
 
 - [Requirements](#requirements)
+- [Environment Variables](#environment-variables)
 - [Conventional Commits](#conventional-commits)
 - [License](#license)
 - [Contact](#contact)
@@ -26,6 +27,14 @@
 - `NodeJS v20.x`
 - `npm v10.x`
 - `Docker >= v28.0.0`
+
+## Environment Variables
+
+To run the project correctly, you must set the required environment variables. Create a `.env` file in the root directory based on the `.env.example` file. Below is a description of the required variables:
+
+| Variable | Description                           | Example Value |
+|----------|---------------------------------------|---------------|
+| `PORT`   | The port where the server will listen | `3030`        |
 
 ## Conventional Commits
 
