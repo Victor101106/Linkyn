@@ -1,0 +1,42 @@
+{
+  "name": "linkynn",
+  "description": "Fast and account-free URL Shortener API, just shorten a link and generate a token to manage!",
+  "version": "0.1.0",
+  "keywords": [
+    "url-shortener",
+    "short-url",
+    "api",
+    "clean-architecture",
+    "nodejs",
+    "typescript",
+    "http",
+    "lightweight",
+    "stateless",
+    "token-based",
+    "backend"
+  ],
+  "private": true,
+  "author": {
+    "name": "Victor Gabriel",
+    "email": "victorgabriel101106+github@gmail.com",
+    "url": "https://github.com/Victor101106/"
+  },
+  "homepage": "https://github.com/Victor101106/Linkyn#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Victor101106/Linkyn"
+  },
+  "bugs": {
+    "url": "https://github.com/Victor101106/Linkyn/issues",
+    "email": "victorgabriel101106+github@gmail.com"
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/Victor101106"
+  },
+  "scripts": {},
+  "engines": {
+    "node": "20.x",
+    "npm": "10.x"
+  }
+}
