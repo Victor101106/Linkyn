@@ -17,6 +17,7 @@
 ## Content Table
 
 - [Requirements](#requirements)
+- [Getting Started](#getting-started)
 - [Environment Variables](#environment-variables)
 - [Conventional Commits](#conventional-commits)
 - [License](#license)
@@ -27,6 +28,38 @@
 - `NodeJS v20.x`
 - `npm v10.x`
 - `Docker >= v28.0.0`
+
+## Getting Started
+
+Follow the step-by-step instructions to set up and run the project:
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/Victor101106/Linkyn.git
+    ```
+
+2. Install dependencies:
+
+    ```bash
+    npm install
+    ```
+
+3. Configure environment variables:
+
+    - Copy `.env.example` file and rename it to `.env`:
+
+        ```bash
+        cp .env.example .env
+        ```
+
+    - Update the `.env` file with the required values. Refer to the [Environment Variables](#environment-variables) for details.
+
+4. Run the project in development mode:
+
+    ```bash
+    npm run start:dev
+    ```
 
 ## Environment Variables
 
