@@ -35,6 +35,7 @@
     "url": "https://github.com/sponsors/Victor101106"
   },
   "scripts": {
+    "start:dev": "tsx watch source/core/server.ts",
     "git:commit": "cz"
   },
   "devDependencies": {
