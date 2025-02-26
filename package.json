@@ -34,6 +34,17 @@
     "type": "github",
     "url": "https://github.com/sponsors/Victor101106"
   },
+  "scripts": {
+    "git:commit": "cz"
+  },
+  "devDependencies": {
+    "commitizen": "^4.3.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
   "engines": {
     "node": "20.x",
     "npm": "10.x"
