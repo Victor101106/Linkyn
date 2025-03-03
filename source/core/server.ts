@@ -1,4 +1,4 @@
-import { instance } from './configs/instance'
+import { instance } from './configs'
 
 const PORT = Number(process.env.PORT)
 
