@@ -1,7 +1,7 @@
+import { ProcessEnvType } from '../../libraries/zod/schemas/node'
+
 export declare global {
     namespace NodeJS {
-        interface ProcessEnv {
-            PORT: number
-        }
+        type ProcessEnv = ProcessEnvType
     }
 }
